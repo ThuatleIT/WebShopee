@@ -1,0 +1,1231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- link icon: https://fontawesome.com/ -->
+    <!--Nhúng thư viện reset trang/link trang web: https://cdnjs.com/libraries/normalize nên chọn file có chữ min để nhẹ hơn -->
+    <!-- link font chữ: https://fonts.google.com/specimenTab?standard-styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet"
+        href="./assets/fonts/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid wide">
+                <nav class="header__navbar hide-on-tablet-mobie">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
+                            Vào cửa hàng trên ứng dụng
+                            <!-- Heade QR Code -->
+                            <div class="header__qr">
+                                <img src="./assets/images/qr_Code.png" alt="QR Code" class="header__qr-img">
+                                <div class="header__qr-apps">
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/images/CH_Play.png" alt="CH Play"
+                                            class="header__qr-download-img">
+                                    </a>
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/images/App_Store.png" alt="App Store"
+                                            class="header__qr-download-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="no-click">Kết nối</span>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fab fa-facebook"></i>
+                            </a>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-noitify">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon far fa-bell"></i>
+                                Thông báo
+                            </a>
+                            <!-- Header noitify -->
+                            <div class="header__noitify">
+                                <div class="header__noitify-title">
+                                    <h3>Thông báo mới nhận</h3>
+                                </div>
+                                <ul class="header__noitify-list">
+                                    <li class="header__noitify-item header__noitify-item--viewed">
+                                        <a href="" class="header__noitify-link">
+                                            <img src="./assets/images/sp3.jfif" alt="" class="header__noitify-img">
+                                            <div class="header__noitify-info">
+                                                <span class="header__noitify-name">Áo thun Phản quang TSUN -
+                                                    Trắng</span>
+                                                <span class="header__noitify-descriotion">
+                                                    Áo thun Phản quang Unisex TSUN tay ngắn được làm bằng chất liệu vải
+                                                    Cotton 2 chiều
+                                                    cao cấp được thiết kế với form áo oversize phù hợp cho cả nam và nữ
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__noitify-item  ">
+                                        <a href="" class="header__noitify-link">
+                                            <img src="./assets/images/sp1.jfif" alt="" class="header__noitify-img">
+                                            <div class="header__noitify-info">
+                                                <span class="header__noitify-name">ÁO THUN HEYYOU ASTRONAUT</span>
+                                                <span class="header__noitify-descriotion">Mô tả sản phẩm
+                                                    Đơn hàng sẽ được chuẩn bị và chuyển đi trước
+                                                    26-01-2022. Bạn có thể kiểm tra hàng sau khi thanh toán.
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__noitify-item header__noitify-item--viewed">
+                                        <a href="" class="header__noitify-link">
+                                            <img src="./assets/images/sp2.jfif" alt="" class="header__noitify-img">
+                                            <div class="header__noitify-info">
+                                                <span class="header__noitify-name">
+                                                    Áo tay dài nỉ sweater BABY ulzzang - không kèm sơ mi trắng
+                                                </span>
+                                                <span class="header__noitify-descriotion">
+                                                    Chất liệu Nỉ bông dày dặn, mịn và êm mang lại cảm giác dễ chịu khi
+                                                    mặc.
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__noitify-item ">
+                                        <a href="" class="header__noitify-link">
+                                            <img src="./assets/images/sp1.jfif" alt="" class="header__noitify-img">
+                                            <div class="header__noitify-info">
+                                                <span class="header__noitify-name">ÁO THUN HEYYOU ASTRONAUT</span>
+                                                <span class="header__noitify-descriotion">Mô tả sản phẩm
+                                                    Đơn hàng sẽ được chuẩn bị và chuyển đi trước
+                                                    26-01-2022. Bạn có thể kiểm tra hàng sau khi thanh toán.
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__noitify-item">
+                                        <a href="" class="header__noitify-link">
+                                            <img src="./assets/images/sp2.jfif" alt="" class="header__noitify-img">
+                                            <div class="header__noitify-info">
+                                                <span class="header__noitify-name">
+                                                    Áo tay dài nỉ sweater BABY ulzzang - không kèm sơ mi trắng
+                                                </span>
+                                                <span class="header__noitify-descriotion">
+                                                    Chất liệu Nỉ bông dày dặn, mịn và êm mang lại cảm giác dễ chịu khi
+                                                    mặc.
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="header__noitify-footer">
+                                    <a href="" class="header__noitify-footer-btn">Xem tất cả</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon far fa-question-circle"></i>
+                                Trợ giúp
+                            </a>
+                        </li>
+                        <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate register">Đăng
+                            ký</li>
+                        <li class="header__navbar-item header__navbar-item--strong login">Đăng nhập</li>
+
+                        <!-- <li class="header__navbar-item header__navbar-user">
+
+                            <img src="./assets/images/us1.jpg" alt="" class="header__navbar-user-img">
+                            <span class="header__navbar-user-name">Đình Cường</span>
+
+                            <ul class="header__navbar-user-menu">
+                                <li class="header__navbar-user-item">
+                                    <a href="">Tài khoản của tôi</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="">Đơn mua</a>
+                                </li>
+                                <li class="header__navbar-user-item header__navbar-user-item--separate">
+                                    <a href="">Đăng xuất</a>
+                                </li>
+                            </ul>
+
+                        </li> -->
+
+                    </ul>
+                </nav>
+
+                <!-- Header with search -->
+                <div class="header-with-search">
+                    <div class="header__logo hide-on-tablet">
+                        <img src="http://storage.googleapis.com/ops-shopee-files-live/live/affiliate-blog/2019/05/logo-full-white.png"
+                            alt="" class="header__logo-img">
+
+                    </div>
+                    <div class="mb-btn">
+                        <label for="mobie-category-checkbox" class="header__mobie-category">
+                            <i class="ti-align-justify header__mobie-category-icon"></i>
+                        </label>
+                        <input type="checkbox" id="mobie-category-checkbox" hidden class="header__category-checkbox">
+
+                        <label for="mobie-category-checkbox" class="overlay"></label>
+                        <div class="nav-mobie">
+                            <label for="mobie-category-checkbox" class="header__mobie-close">
+                                <i class="ti-close header__mobie-close-icon"></i>
+                            </label>
+                            <ul class="mb-category__list">
+                                <li class="mb-category__item">
+                                    <a href="#" class="mb-category__item-link">Đăng nhập</a>
+                                </li>
+                                <li class="mb-category__item">
+                                    <a href="#" class="mb-category__item-link">Đăng ký</a>
+                                </li>
+                                <li class="mb-category__item">
+                                    <a href="#" class="mb-category__item-link">Tài khoản</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <label for="mobie-search-checkbox" class="header__mobie-search">
+                            <i class="header__mobie-search-icon ti-search"></i>
+                        </label>
+
+
+
+
+
+                    </div>
+                    <input type="checkbox" hidden id="mobie-search-checkbox" class="header__search-checkbox">
+
+                    <div class="header__search ">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Nhập để tìm kiếm sản phẩm">
+
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="">Kem dưỡng da</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">Kem dưỡng da</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <div class="header__search-select">
+                            <span class="header__search-select-lable">Trong shop</span>
+                            <i class="header__search-select-icon fas fa-angle-down"></i>
+
+                            <ul class="header__search-option">
+                                <li class="header__search-option-item header__search-option-item--active">
+                                    <span>Trong shop</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                                <li class="header__search-option-item">
+                                    <span>Ngoài shop</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fas fa-search"></i>
+                        </button>
+
+                    </div>
+
+
+                    <div class="header__cart">
+                        <div class="header_cart-wrap">
+                            <i class="header__cart-icon fas fa-shopping-cart"></i>
+                            <span class="header__cart-noite">3</span>
+
+                            <!-- No cart: header__cart-list--no-cart -->
+                            <div class="header__cart-list">
+                                <img src="./assets/images/no-cart.png" alt="" class="header__cart-list-no-cart-img">
+                                <span class="header__no-cart-msg">
+                                    Chưa có sản phẩm
+                                </span>
+
+                                <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                                <ul class="header__cart-list-items">
+                                    <!-- Cart Item -->
+                                    <li class="header__cart-item">
+                                        <img src="./assets/images/sp1.jfif" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Bộ kem đặc trị vùng mắt</h5>
+                                                <div class="header__cart_item-price-wrap">
+                                                    <span class="header__cart-item-price">2.000.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phân loại hàng: Bạc
+                                                </span>
+                                                <span class="header__cart-item-remote">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="./assets/images/sp3.jfif" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Bộ kem đặc trị vùng mắt</h5>
+                                                <div class="header__cart_item-price-wrap">
+                                                    <span class="header__cart-item-price">2.000.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phân loại hàng: Bạc
+                                                </span>
+                                                <span class="header__cart-item-remote">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="./assets/images/sp2.jfif" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Bộ kem đặc trị vùng mắt</h5>
+                                                <div class="header__cart_item-price-wrap">
+                                                    <span class="header__cart-item-price">2.000.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phân loại hàng: Bạc
+                                                </span>
+                                                <span class="header__cart-item-remote">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="./assets/images/sp1.jfif" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Bộ kem đặc trị vùng mắt</h5>
+                                                <div class="header__cart_item-price-wrap">
+                                                    <span class="header__cart-item-price">2.000.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phân loại hàng: Bạc
+                                                </span>
+                                                <span class="header__cart-item-remote">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="./assets/images/sp3.jfif" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Bộ kem đặc trị vùng mắt</h5>
+                                                <div class="header__cart_item-price-wrap">
+                                                    <span class="header__cart-item-price">2.000.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phân loại hàng: Bạc
+                                                </span>
+                                                <span class="header__cart-item-remote">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="./assets/images/sp2.jfif" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Bộ kem đặc trị vùng mắt</h5>
+                                                <div class="header__cart_item-price-wrap">
+                                                    <span class="header__cart-item-price">2.000.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phân loại hàng: Bạc
+                                                </span>
+                                                <span class="header__cart-item-remote">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="./assets/images/sp1.jfif" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Bộ kem đặc trị vùng mắt</h5>
+                                                <div class="header__cart_item-price-wrap">
+                                                    <span class="header__cart-item-price">2.000.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phân loại hàng: Bạc
+                                                </span>
+                                                <span class="header__cart-item-remote">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="./assets/images/sp3.jfif" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Bộ kem đặc trị vùng mắt</h5>
+                                                <div class="header__cart_item-price-wrap">
+                                                    <span class="header__cart-item-price">2.000.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phân loại hàng: Bạc
+                                                </span>
+                                                <span class="header__cart-item-remote">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="./assets/images/sp2.jfif" alt="" class="header__cart-img">
+                                        <div class="header__cart-item-info">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">Bộ kem đặc trị vùng mắt </h5>
+                                                <div class="header__cart_item-price-wrap">
+                                                    <span class="header__cart-item-price">2.000.000đ</span>
+                                                    <span class="header__cart-item-multiply">x</span>
+                                                    <span class="header__cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-description">
+                                                    Phân loại hàng: Bạc
+                                                </span>
+                                                <span class="header__cart-item-remote">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <a href="#" class="header__cart-view-btn btn btn--primary">Xem giỏ hàng</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <ul class="header__sort-bar">
+                <li class="header__sort-item"><a href="" class="header__sort-link ">Liên quan</a></li>
+                <li class="header__sort-item header__sort-item--active"><a href="" class="header__sort-link ">Mới
+                        nhất</a></li>
+                <li class="header__sort-item"><a href="" class="header__sort-link ">Bán chạy</a></li>
+                <li class="header__sort-item"><a href="" class="header__sort-link">Giá </a></li>
+            </ul>
+        </header>
+
+        <div class="app__container">
+            <div class="grid wide">
+                <div class="row sm-gutter app_content">
+                    <div class="col l-2 m-0 c-0">
+                        <nav class="category">
+                            <h3 class="category__heading ">
+                                <i class="category__heading-icon fas fa-list"></i>
+                                Danh mục
+                            </h3>
+
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <a href="#" class="category-item__link ">Trang điểm mặt</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Trang điểm môi</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="#" class="category-item__link">Trang điểm mắt</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col l-10 m-12 c-12">
+                        <div class="home-filter hide-on-tablet-mobie">
+                            <span class="home-filter__lable">Sắp xếp theo</span>
+                            <button class="btn home-filter__btn">Mới nhất</button>
+                            <button class="btn home-filter__btn btn--primary">Phổ biến</button>
+                            <button class="btn home-filter__btn">Bán chạy</button>
+
+                            <div class="select-input">
+                                <span class="select-input__lable">Giá</span>
+                                <i class="header__search-select-icon fas fa-angle-down"></i>
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">
+                                            Giá: Cao đến thấp
+                                        </a>
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">
+                                            Giá: Thấp đến cao
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-number">
+                                    <span class="home-filter__page-current">1</span>/14
+                                </span>
+
+                                <div class="home-filter__control">
+                                    <a href="" class="home-filter__page-btn home-filter__page-btn--disable">
+                                        <i class="home-filter__page-icon fas fa-angle-left"></i>
+                                    </a>
+                                    <a href="" class="home-filter__page-btn">
+                                        <i class="home-filter__page-icon fas fa-angle-right"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <nav class="mobie-category">
+                            <ul class="mobie-category__list">
+                                <li class="mobie-category__item">
+                                    <a href="" class="mobie-category__link">Dụng cụ và thiết bị tiện ích Dụng cụ và
+                                        thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobie-category__item">
+                                    <a href="" class="mobie-category__link">Dụng cụ và thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobie-category__item">
+                                    <a href="" class="mobie-category__link">Dụng cụ và thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobie-category__item">
+                                    <a href="" class="mobie-category__link">Dụng cụ và thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobie-category__item">
+                                    <a href="" class="mobie-category__link">Dụng cụ và thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobie-category__item">
+                                    <a href="" class="mobie-category__link">Dụng cụ và thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobie-category__item">
+                                    <a href="" class="mobie-category__link">Dụng cụ và thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobie-category__item">
+                                    <a href="" class="mobie-category__link">Dụng cụ và thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobie-category__item">
+                                    <a href="" class="mobie-category__link">Dụng cụ và thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobie-category__item">
+                                    <a href="" class="mobie-category__link">Dụng cụ và thiết bị tiện ích</a>
+                                </li>
+
+                            </ul>
+                        </nav>
+
+                        <div class="home-product">
+                            <div class="row sm-gutter">
+                                <!-- product item -->
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img"
+                                            style="background-image: url(assets/images/SP/sp0.jpg);">
+                                        </div>
+                                        <h4 class="home-product-item__name">Áo sweater nam TINOWEAR, áo nỉ sweater cổ
+                                            tròn form rộng bông trơn hình icon mặt cười form rộng Unisex</h4>
+
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ</span>
+                                            <span class="home-product-item__price-current">1.000.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">Đã bán 88</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__country">Nhập Bản</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__percent">43%</span>
+                                            <span class="home-product-item__lable">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img"
+                                            style="background-image: url(assets/images/SP/sp1.jpg);">
+                                        </div>
+                                        <h4 class="home-product-item__name">Áo sweater nam TINOWEAR, áo nỉ sweater cổ
+                                            tròn form rộng bông trơn hình icon mặt cười form rộng Unisex</h4>
+
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ</span>
+                                            <span class="home-product-item__price-current">1.000.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">Đã bán 88</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__country">Nhập Bản</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__percent">43%</span>
+                                            <span class="home-product-item__lable">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img"
+                                            style="background-image: url(assets/images/SP/sp2.jpg);">
+                                        </div>
+                                        <h4 class="home-product-item__name">Áo sweater nam TINOWEAR, áo nỉ sweater cổ
+                                            tròn form rộng bông trơn hình icon mặt cười form rộng Unisex</h4>
+
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ</span>
+                                            <span class="home-product-item__price-current">1.000.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">Đã bán 88</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__country">Nhập Bản</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__percent">43%</span>
+                                            <span class="home-product-item__lable">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img"
+                                            style="background-image: url(assets/images/SP/sp3.jpg);">
+                                        </div>
+                                        <h4 class="home-product-item__name">Áo sweater nam TINOWEAR, áo nỉ sweater cổ
+                                            tròn form rộng bông trơn hình icon mặt cười form rộng Unisex</h4>
+
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ</span>
+                                            <span class="home-product-item__price-current">1.000.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">Đã bán 88</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__country">Nhập Bản</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__percent">43%</span>
+                                            <span class="home-product-item__lable">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img"
+                                            style="background-image: url(assets/images/SP/sp4.jpg);">
+                                        </div>
+                                        <h4 class="home-product-item__name">Áo sweater nam TINOWEAR, áo nỉ sweater cổ
+                                            tròn form rộng bông trơn hình icon mặt cười form rộng Unisex</h4>
+
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ</span>
+                                            <span class="home-product-item__price-current">1.000.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">Đã bán 88</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__country">Nhập Bản</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__percent">43%</span>
+                                            <span class="home-product-item__lable">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img"
+                                            style="background-image: url(assets/images/SP/sp5.jpg);">
+                                        </div>
+                                        <h4 class="home-product-item__name">Áo sweater nam TINOWEAR, áo nỉ sweater cổ
+                                            tròn form rộng bông trơn hình icon mặt cười form rộng Unisex</h4>
+
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ</span>
+                                            <span class="home-product-item__price-current">1.000.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">Đã bán 88</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__country">Nhập Bản</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__percent">43%</span>
+                                            <span class="home-product-item__lable">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img"
+                                            style="background-image: url(assets/images/SP/sp6.jpg);">
+                                        </div>
+                                        <h4 class="home-product-item__name">Áo sweater nam TINOWEAR, áo nỉ sweater cổ
+                                            tròn form rộng bông trơn hình icon mặt cười form rộng Unisex</h4>
+
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ</span>
+                                            <span class="home-product-item__price-current">1.000.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">Đã bán 88</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__country">Nhập Bản</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__percent">43%</span>
+                                            <span class="home-product-item__lable">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img"
+                                            style="background-image: url(assets/images/SP/sp7.jpg);">
+                                        </div>
+                                        <h4 class="home-product-item__name">Áo sweater nam TINOWEAR, áo nỉ sweater cổ
+                                            tròn form rộng bông trơn hình icon mặt cười form rộng Unisex</h4>
+
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ</span>
+                                            <span class="home-product-item__price-current">1.000.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">Đã bán 88</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__country">Nhập Bản</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__percent">43%</span>
+                                            <span class="home-product-item__lable">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img"
+                                            style="background-image: url(assets/images/SP/sp8.jpg);">
+                                        </div>
+                                        <h4 class="home-product-item__name">Áo sweater nam TINOWEAR, áo nỉ sweater cổ
+                                            tròn form rộng bông trơn hình icon mặt cười form rộng Unisex</h4>
+
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ</span>
+                                            <span class="home-product-item__price-current">1.000.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">Đã bán 88</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__country">Nhập Bản</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__percent">43%</span>
+                                            <span class="home-product-item__lable">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a class="home-product-item" href="#">
+                                        <div class="home-product-item__img"
+                                            style="background-image: url(assets/images/SP/sp9.jpg);">
+                                        </div>
+                                        <h4 class="home-product-item__name">Áo sweater nam TINOWEAR, áo nỉ sweater cổ
+                                            tròn form rộng bông trơn hình icon mặt cười form rộng Unisex</h4>
+
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ</span>
+                                            <span class="home-product-item__price-current">1.000.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-fill fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="home-product-item--star-fill fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <span class="home-product-item__sold">Đã bán 88</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__country">Nhập Bản</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span>Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__percent">43%</span>
+                                            <span class="home-product-item__lable">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <ul class="pagination home-product__pagination">
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">
+                                    <i class="pagination-item__icon fas fa-angle-left"></i>
+                                </a>
+                            </li>
+
+                            <li class="pagination-item pagination-item--active">
+                                <a href="#" class="pagination-item__link ">1</a>
+                            </li>
+
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">2</a>
+                            </li>
+
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">3</a>
+                            </li>
+
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">4</a>
+                            </li>
+
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">5</a>
+                            </li>
+
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">...</a>
+                            </li>
+
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">14</a>
+                            </li>
+
+                            <li class="pagination-item">
+                                <a href="#" class="pagination-item__link">
+                                    <i class="pagination-item__icon fas fa-angle-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="grid wide footer__content">
+                <div class="grid__row">
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">Trung tâm trợ giúp</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">Hướng Dẫn Mua Hàng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">Thanh Toán</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">Giới thiệu</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">Tuyển Dụng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">Chính Sách Bảo Mật</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">Flash Sales</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">Danh mục</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">Tuyển Dụng</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">Chính Sách Bảo Mật</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">Flash Sales</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">Theo dõi</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">
+                                    <i class="footer__item-icon fab fa-facebook"></i>
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-item__link">
+                                    <i class="footer__item-icon fab fa-instagram"></i>
+                                    Instagram
+                                </a>
+                            </li>
+                            <li class="footer-item">
+
+                                <a href="#" class="footer-item__link">
+                                    <i class="footer__item-icon fab fa-instagram"></i>
+                                    LinkedIn
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-8 c-12">
+                        <h3 class="footer__heading">Vào cửa hàng trên ứng dụng</h3>
+                        <div class="footer__download">
+                            <img src="./assets/images/qr_Code.png" alt="" class="footer__download-img">
+                            <div class="footer__download-apps">
+                                <a href="#" class="footer__download-app-link">
+                                    <img src="./assets/images/CH_Play.png" alt="" class="footer__download-app-img">
+                                </a>
+                                <a href="#" class="footer__download-app-link">
+                                    <img src="./assets/images/App_Store.png" alt="" class="footer__download-app-img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="footer__bottom">
+                <div class="grid wide">
+                    <p class="footer__text">
+                        © 2022 - Bản quyền thuộc về Công ty MyCV
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- Modal layout -->
+    <div class="modal hide">
+        <div class="modal__overlay hide"></div>
+
+        <div class="modal__body">
+            <!-- Register form -->
+            <div class="auth-form register-show hide">
+
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng ký</h3>
+                        <span class="auth-form__switch-btn">Đăng nhập</span>
+                    </div>
+
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Nhập email của bạn">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập mật khẩu của bạn">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu của bạn">
+                        </div>
+                    </div>
+
+                    <div class="auth-form__aside">
+                        <p class="auth-form__policy-text">
+                            Bằng việc đăng kí, bạn đã đồng ý với Shopee về
+                            <a href="" class="auth-form__text-link">Điều khoản dịch vụ</a> &
+                            <a href="" class="auth-form__text-link">Chính sách bảo mật</a>
+                        </p>
+                    </div>
+
+                    <div class="auth-form__controls">
+                        <button class="btn auth-form__controls--back btn--normal">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG KÝ </button>
+                    </div>
+                </div>
+
+                <div class="auth-form__socials">
+                    <a href="#" class="auth-form__socials--fb btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                        <span class="auth-form__socials-title">
+                            Kết nối với facebook
+                        </span>
+                    </a>
+                    <a href="#" class="auth-form__socials--gg btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socials-icon fab fa-google"></i>
+                        <span class="auth-form__socials-title">
+                            Kết nối với google
+                        </span>
+
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Login form -->
+            <div class="auth-form login-show hide">
+
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng nhập</h3>
+                        <span class="auth-form__switch-btn">Đăng ký</span>
+                    </div>
+
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Nhập email của bạn">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập mật khẩu của bạn">
+                        </div>
+
+                    </div>
+
+                    <div class="auth-form__aside">
+                        <div class="auth-form__help">
+                            <a href="" class="auth-form__help-link auth-form__fogot">Quên mật khẩu</a>
+                            <span class="auth-form__help-separate"></span>
+                            <a href="" class="auth-form__help-link">Cần trợ giúp?</a>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__controls">
+                        <button class="btn auth-form__controls--back btn--normal">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG NHẬP </button>
+                    </div>
+                </div>
+
+                <div class="auth-form__socials">
+                    <a href="#" class="auth-form__socials--fb btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                        <span class="auth-form__socials-title">
+                            Kết nối với facebook
+                        </span>
+                    </a>
+                    <a href="#" class="auth-form__socials--gg btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socials-icon fab fa-google"></i>
+                        <span class="auth-form__socials-title">
+                            Kết nối với google
+                        </span>
+
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./assets/javascript/js.js"></script>
+</body>
+
+</html>
